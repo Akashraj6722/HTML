@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html>
 
-<h1 style="color:red"><center>
+<h1 class="login"><center><div ><center>
 LOGIN
 </center>
+</div>
 </h1>
 
 
 <body>
     <center>
     <div>
-        <label for="name">UserName</label>
+        <label for="name" class="userName">UserName</label>
         <input type="text" id="name" placeholder="Enter registered UserName"><br><br>
-        <label for="pass">Password</label>
+        <label for="pass" class="pass">Password</label>
         <input type="password"  id="pass" placeholder="Enter correct Password"><br><br>
-        <button  > <a href="http://127.0.0.1:5500/Book%20List.html">Submit</a></button>
+        <button  > <a href="http://127.0.0.1:5500/Library%20APP/Book%20List.html">Submit</a></button>
 
 
         <a href=""></a>
     </div>
 </center>
+
+
 </body>
 
+<style>
+    body{
+        background-image: url(/img/Loginpage.jpg);
+        background-position: center;
+        background-size: cover;
 
+        
+    }
+
+    .login{
+            width: 130px;
+            margin-left: 45%;
+            background-color: rgb(1, 12, 12);
+            height: 35px;
+            color: red;
+    }
+
+    .userName{
+        background-color: rgb(0, 0, 0);
+        font-size: large;
+        font-weight: bolder;
+        color: aliceblue;
+    }
+    .pass{
+
+        background-color: rgb(0, 0, 0);
+        font-size: large;
+        font-weight: bolder;
+         color: aliceblue;
+    }
+</style>
 
 
 
